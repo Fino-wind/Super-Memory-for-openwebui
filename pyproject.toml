@@ -1,0 +1,20 @@
+[project]
+name = "super-memory-mcp"
+version = "0.1.0"
+description = "Super Memory assistant implemented as an MCP server"
+authors = [{ name = "南风", email = "" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=0.1.0",
+    "aiohttp",
+    "pydantic>=2.0",
+    "pytz",
+    "numpy",
+]
+
+[project.optional-dependencies]
+semantic = ["sentence-transformers"]
+
+[project.scripts]
+super-memory-mcp = "super_memory_mcp.server:run"
