@@ -1,3 +1,5 @@
+
+
 # Super-Memory-for-openwebui
 作者：南风的AI进化日记。知乎，b站，抖音同号
 
@@ -23,6 +25,4 @@
 
 使用方法：
 1.openwebui社区链接导入：https://openwebui.com/f/linyou/super_memory
-2.或者您可以点击代码库里面的function，复制，导入到openwebui的函数
-
-
+2.或者您可以点击代码库里面的function，复制并导入到openwebui的函数
